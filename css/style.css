@@ -42,12 +42,12 @@ p {
 	clear:both;
 }
 
-.one-half, .one-third, .one-fouth {
+.one-half, .one-third, .one-fourth {
 	width:96%;
 	float:left;
 	position:relative;
-	min-height:1px
-	margin 0 2% 20px;
+	min-height:1px;
+	margin: 0 2% 20px;
 }
 
  @media (min-width: 768px) {
@@ -70,6 +70,12 @@ p {
    }
  }
  @media (min-width: 1200px) {
+   .container {
+     width: 1170px;
+   }
+ }
+
+ @media (min-width: 1280px) {
    .container {
      width: 1170px;
    }
@@ -128,6 +134,7 @@ header .hero h1{
 	font-size:48px;
 	font-weight: normal;
 	margin:95px 0 0 ;
+	color: lightblue;
 }
 
 header .hero p {
@@ -135,6 +142,7 @@ header .hero p {
 	line-height:26px;
 	font-weight:100;
 	margin:10px 0 40px;
+	color: lightgreen;
 }
 
 header .hero img {
