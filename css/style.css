@@ -299,6 +299,10 @@ header .hero img {
 	margin:0;
 }
 
+.testimonials .testimonial-shift {
+	margin-top: 20px;
+}
+
 .testimonials blockquote:after {
 	top:100%;
 	left:13%;
