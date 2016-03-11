@@ -75,7 +75,7 @@ p {
    }
  }
 
- @media (min-width: 1280px) {
+ @media tv (min-width: 1280px) {
    .container {
      width: 1170px;
    }
@@ -312,6 +312,7 @@ header .hero img {
 	border-width:10px
 	margin-left:-10px;
 }
+
 
 .testimonials img {
 	height: 65px;
