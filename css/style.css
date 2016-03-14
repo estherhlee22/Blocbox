@@ -55,6 +55,12 @@ p {
      width: 750px;
    }
  }
+
+  @media (max-width: 768px) {
+   .container {
+     font-size:80%;
+   }
+ }
  @media (min-width: 992px) {
    .container {
      width: 970px;
@@ -69,6 +75,13 @@ p {
      width:21%;
    }
  }
+
+@media (max-width: 992px) {
+   .container {
+     font-size:90%;
+   }
+  }
+
  @media (min-width: 1200px) {
    .container {
      width: 1170px;
